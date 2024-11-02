@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+/* *{
+  background-image: url(image/bg.jpg);
+} */
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+} 
+
+.t1tle{
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+.empty_space {
+    padding: 10%;  /* 調整內部留白大小 */
+    margin: 10%;   /* 調整外部留白大小 */
+}
+
+.re_empty_space {
+    padding: -10%;  /* 調整內部留白大小 */
+    margin: -10%;   /* 調整外部留白大小 */
+}
+
+
+img{
+   max-width: 512px;
+   max-height: 512px;
+   width: auto;
+   height: auto;
+   margin-bottom: 30px; /* 為圖片增加底部邊距 */
+}
+
+.next_page {
+     position: absolute;       /* 固定位置 */
+     bottom: 20%;             /* 距離底部 0px */
+     left: 50%;             /* 水平居中 */
+     transform: translateX(-50%); /* 向左移動一半寬度，精確居中 */
+     padding: 3%;         /* 添加內距 */
+}
+
+.right_site{
+     right: 100%;          
+     transform: translateX(-100%); 
+}
+
